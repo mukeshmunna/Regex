@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Regex Functionality");
         ValidatePincode validatePincode = new ValidatePincode();
-        validatePincode.Validate("601201");
+        validatePincode.UC1_Validate("601201");
 
     }
 }
