@@ -34,5 +34,13 @@ namespace RegexProblems
             else
                 Console.WriteLine("Validation UnSuccessful");
         }
+        public void UC4_Validate(string input)
+        {
+            bool result = Regex.IsMatch(input, uc4_Regex);
+            if (result)
+                Console.WriteLine("Validation Successful");
+            else
+                Console.WriteLine("Validation UnSuccessful");
+        }
     }
 }
